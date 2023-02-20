@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <div class="container">
+        <div class="game-info">
+            <div class="game-name">Hangman</div>
+            <div class="category">    <!--The word belongs to which section -->
+                Section : <span></span>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="hangmman-draw">
+                <div class="draw">    
+                    <div class="stand"></div>  
+                    <div class="hang"></div>
+                    <div class="rope"></div>
+                    <div class="man">
+                        <div class="head"></div>
+                        <div class="body"></div>
+                        <div class="hands"></div>
+                        <div class="legs"></div>
+                    </div> 
+                </div>
+            </div>
+            <div class="letters"> </div>
+        </div>
+        <hr>
+        <div class="letters-guess"></div>
+    </div>
+    <audio src="success_bell-6776.mp3" id="success" preload="auto"></audio>
+    <audio src="wrong-answer-126515.mp3" id="fail" preload="auto"></audio>
+    <script src="index.js"></script>
+</body>
+</html>
