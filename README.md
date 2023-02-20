@@ -1,5 +1,5 @@
 ﻿# Hangman-Game
-https://mariamsmoustafa.github.io/Hangman-Game/
+https://mariamsmoustafa.github.io/Hangman-Game/index.html
 
 ﻿# Live Demo
 
